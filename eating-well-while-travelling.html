@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="theme-color" content="#0c0c0c">
+<title>Eating Well While Travelling: The Busy Business Owner’s Guide | The UHP Journal</title>
+<meta name="description" content="Airports, hotel breakfasts and client dinners don’t have to derail your progress. You don’t need perfect nutrition while travelling — you need a few decisions that work almost anywhere.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;0,800;0,900;1,600;1,700;1,800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--black:#000;--bg:#0c0c0c;--surface:#141414;--card:#181818;--beige:#C4C0B7;--beige2:#ABA89F;--white:#F5F5F0;--text:#DEDAD4;--muted:#88847E;--dim:#4E4C48;--orange:#C9A84C;--orange2:#b8962e;--gold:#C9A84C;--border:rgba(196,192,183,.08);--border2:rgba(196,192,183,.15);--ease:cubic-bezier(.22,.61,.36,1);--ease-out:cubic-bezier(.16,1,.3,1);--font:'Barlow Condensed','Arial Narrow',sans-serif;--body:'Inter',system-ui,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}body{background:var(--bg);color:var(--text);font-family:var(--body);overflow-x:hidden;cursor:none}h1,h2,h3,h4,h5,h6{font-family:var(--font)}::selection{background:rgba(201,168,76,.28);color:#fff}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}button{font:inherit;cursor:none;border:none;background:none;color:inherit}
+.cur{position:fixed;width:10px;height:10px;background:var(--white);border-radius:50%;pointer-events:none;z-index:10000;transform:translate(-50%,-50%);mix-blend-mode:difference}
+.cur-f{position:fixed;width:36px;height:36px;border:1px solid rgba(255,255,255,.35);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);transition:width .4s var(--ease-out),height .4s var(--ease-out),border-color .4s}
+body.hovering .cur-f{width:56px;height:56px;border-color:rgba(201,168,76,.5)}
+.grain{position:fixed;inset:0;pointer-events:none;z-index:9998;opacity:.028;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)' opacity='1'/></svg>");mix-blend-mode:overlay}
+.sprog{position:fixed;top:0;left:0;right:0;height:2px;z-index:101;background:rgba(255,255,255,.06)}.sprog-bar{height:100%;background:var(--orange);width:0;transition:width .08s linear}
+.pt{position:fixed;inset:0;z-index:500;background:var(--black);transform:scaleY(1);transform-origin:top;transition:transform .65s cubic-bezier(.76,0,.24,1);pointer-events:none}.pt.done{transform:scaleY(0);transform-origin:bottom}
+.rv{opacity:0;transform:translateY(32px);transition:opacity .85s var(--ease-out),transform .85s var(--ease-out)}.rv.in{opacity:1;transform:none}
+.rv-l{opacity:0;transform:translateX(-32px);transition:opacity .85s var(--ease-out),transform .85s var(--ease-out)}.rv-l.in{opacity:1;transform:none}
+.rv-r{opacity:0;transform:translateX(32px);transition:opacity .85s var(--ease-out),transform .85s var(--ease-out)}.rv-r.in{opacity:1;transform:none}
+[data-d="1"]{transition-delay:.1s}[data-d="2"]{transition-delay:.2s}[data-d="3"]{transition-delay:.3s}
+.wrap{max-width:1400px;margin:0 auto;padding:0 52px}@media(max-width:768px){.wrap{padding:0 24px}}
+.sec{padding:96px 0}@media(max-width:768px){.sec{padding:64px 0}}
+.lbl{display:inline-flex;align-items:center;gap:12px;font-size:11px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--beige)}.lbl::before{content:'';width:28px;height:1px;background:var(--beige);flex-shrink:0}
+.bp{display:inline-flex;align-items:center;gap:8px;padding:15px 32px;background:#C9A84C;color:#000;font-family:var(--font);font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;border:1px solid #C9A84C;border-radius:999px;transition:all .35s var(--ease);cursor:none}.bp:hover{background:#b8962e;border-color:#b8962e;transform:translateY(-2px)}
+.bo{display:inline-flex;align-items:center;gap:8px;padding:15px 32px;background:transparent;color:var(--beige);font-family:var(--font);font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--beige);border-radius:999px;transition:all .35s var(--ease);cursor:none}.bo:hover{background:var(--beige);color:var(--black)}
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;height:72px;transition:background .4s var(--ease),border-color .4s}.nav.scrolled{background:rgba(12,12,12,.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border)}
+.nav-in{height:100%;display:flex;align-items:center;justify-content:space-between;max-width:1400px;margin:0 auto;padding:0 52px}@media(max-width:768px){.nav-in{padding:0 24px}}
+.nav-logo{display:flex;align-items:center;gap:14px;cursor:none}.logo-mark{width:28px;height:34px;color:var(--white);transition:transform .35s var(--ease-out)}.nav-logo:hover .logo-mark{transform:scale(1.06)}.logo-img{height:36px;width:auto;object-fit:contain;display:block;transition:transform .35s var(--ease-out)}.nav-logo:hover .logo-img{transform:scale(1.05)}.logo-wm{line-height:1.1}.logo-wm-main{display:block;font-family:var(--font);font-size:13px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--white)}.logo-wm-sub{display:block;font-family:var(--font);font-size:9px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:rgba(196,192,183,.5);margin-top:2px}
+.nl{display:flex;align-items:center;gap:2px}.nl a{padding:8px 16px;font-size:12.5px;font-weight:600;letter-spacing:.06em;color:rgba(255,255,255,.48);transition:color .25s;cursor:none}.nl a:hover,.nl a.active{color:var(--white)}
+.nc{padding:10px 24px;background:#C9A84C;color:#000;font-family:var(--font);font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;border-radius:999px;transition:all .3s;cursor:none;white-space:nowrap}.nc:hover{background:#b8962e;transform:translateY(-1px)}
+@media(max-width:900px){.nl{display:none}}@media(max-width:600px){.nc{display:none}}
+.hbg{display:none;flex-direction:column;gap:5px;padding:8px}.hbg span{display:block;width:22px;height:1.5px;background:var(--white);border-radius:2px}@media(max-width:768px){.hbg{display:flex}}
+.mm{position:fixed;inset:0;z-index:98;background:rgba(8,8,8,.98);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;opacity:0;visibility:hidden;transition:all .4s var(--ease)}.mm.open{opacity:1;visibility:visible}
+.mm a{font-family:var(--font);font-size:clamp(30px,9vw,52px);font-weight:900;text-transform:uppercase;letter-spacing:.04em;color:rgba(255,255,255,.32);transition:color .3s,letter-spacing .3s;line-height:1.2;cursor:none}.mm a:hover{color:var(--white)}.mm a.bp{color:#000;font-size:16px}.mm a.bp:hover{color:#000}.mm-x{position:absolute;top:24px;right:28px;font-size:30px;color:rgba(255,255,255,.3);cursor:none;line-height:1}
+footer{background:var(--black);border-top:1px solid var(--border);padding:80px 0 40px}
+.ft-g{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:64px;margin-bottom:64px}
+.ft-col h6{font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--beige);margin-bottom:20px;opacity:.8}
+.ft-col a{display:block;font-size:14px;color:var(--muted);margin-bottom:12px;transition:color .25s;cursor:none}.ft-col a:hover{color:var(--white)}
+.ft-bot{border-top:1px solid var(--border);padding-top:28px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.ft-bot p{font-size:12px;color:var(--muted);letter-spacing:.04em}
+@media(max-width:900px){.ft-g{grid-template-columns:1fr 1fr;gap:40px}.ft-bc{grid-column:1/-1}}@media(max-width:600px){.ft-g{grid-template-columns:1fr}.ft-bot{flex-direction:column;text-align:center}}
+
+/* ARTICLE HERO */
+.art-hero{position:relative;padding:152px 0 64px;overflow:hidden}@media(max-width:1024px){.art-hero{padding:136px 0 56px}}@media(max-width:768px){.art-hero{padding:112px 0 48px}}
+.art-hero-bg{position:absolute;inset:0}
+.art-hero-bg img{width:100%;height:100%;object-fit:cover;object-position:center 30%;filter:brightness(.3) saturate(.9)}
+.art-hero-ov{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(8,8,8,.45),rgba(8,8,8,.92))}
+.art-back{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--beige);margin-bottom:28px;transition:gap .3s}
+.art-back:hover{gap:14px}
+.art-cat-pill{display:inline-block;padding:5px 14px;background:var(--orange);color:#000;font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;border-radius:999px;margin-bottom:24px}
+.art-title{font-weight:900;text-transform:uppercase;font-size:clamp(32px,4.6vw,60px);color:var(--white);line-height:1.05;letter-spacing:-.01em;max-width:880px}
+.art-dek{font-size:18px;color:rgba(255,255,255,.62);max-width:680px;margin-top:22px;line-height:1.65}
+.art-meta{display:flex;align-items:center;gap:16px;font-size:12px;color:var(--dim);letter-spacing:.06em;text-transform:uppercase;margin-top:28px}
+.art-meta-dot{width:3px;height:3px;border-radius:50%;background:var(--dim)}
+
+/* ARTICLE BODY */
+.art-wrap{max-width:740px;margin:0 auto;padding:0 24px}
+.art-body{font-size:17.5px;line-height:1.85;color:var(--text)}
+.art-body p{margin-bottom:1.15em}
+.art-body h2{font-size:clamp(24px,3vw,32px);font-weight:900;text-transform:uppercase;color:var(--white);letter-spacing:-.005em;line-height:1.15;margin:2em 0 .7em}
+.art-body h2:first-child{margin-top:0}
+.art-body ul{list-style:none;margin:0 0 1.4em;padding:0}
+.art-body ul li{position:relative;padding-left:22px;margin-bottom:.6em;font-size:16.5px;line-height:1.6}
+.art-body ul li::before{content:'';position:absolute;left:0;top:.6em;width:5px;height:5px;border-radius:50%;background:var(--gold)}
+.art-callout{margin:1.6em 0;padding:18px 24px;background:rgba(201,168,76,.06);border-left:2px solid var(--gold);color:var(--white);font-size:16px;font-weight:600;line-height:1.6}
+.art-cta{margin:2em 0}
+.art-refs{list-style:none;counter-reset:refs;margin-top:1em}
+.art-refs li{font-size:13px;color:var(--dim);line-height:1.7;margin-bottom:.7em;word-break:break-word}
+.art-table-w{overflow-x:auto;margin:1.6em 0;-webkit-overflow-scrolling:touch}
+.art-table{width:100%;min-width:520px;border-collapse:collapse;font-size:14.5px}
+.art-table th,.art-table td{padding:12px 14px;border:1px solid var(--border2);text-align:left;vertical-align:top;line-height:1.5}
+.art-table th{background:var(--surface);color:var(--gold);font-family:var(--font);font-weight:700;letter-spacing:.04em;text-transform:uppercase;font-size:12px}
+.art-table td:first-child{color:var(--white);font-weight:700;white-space:nowrap}
+@media(max-width:600px){.art-table{font-size:13px;min-width:460px}.art-table th,.art-table td{padding:8px 10px}}
+
+/* RELATED */
+.rel-g{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:var(--border);border-radius:16px;overflow:hidden;margin-top:24px}
+.rel-card{background:var(--black);overflow:hidden;transition:background .4s var(--ease);display:flex;flex-direction:column}
+.rel-card:hover{background:var(--surface)}
+.rel-img-w{overflow:hidden}
+.rel-img{width:100%;height:160px;object-fit:cover;filter:brightness(.7);transition:transform .6s var(--ease-out)}
+.rel-card:hover .rel-img{transform:scale(1.05)}
+.rel-body{padding:20px}
+.rel-cat{font-size:9px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--orange);margin-bottom:8px}
+.rel-title{font-family:var(--font);font-size:17px;font-weight:800;text-transform:uppercase;color:var(--white);line-height:1.15}
+@media(max-width:900px){.rel-g{grid-template-columns:1fr}}
+
+/* CTA SPLIT */
+.cta-split{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+@media(max-width:900px){.cta-split{grid-template-columns:1fr;gap:40px}}
+.cta-stats{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--border)}
+</style>
+</head>
+<body>
+<div class="cur" id="cur"></div>
+<div class="cur-f" id="curf"></div>
+<div class="grain"></div>
+<div class="sprog"><div class="sprog-bar" id="pb"></div></div>
+<div class="pt" id="pt"></div>
+<header class="nav" id="nav">
+  <div class="nav-in">
+    <a href="index.html" class="nav-logo"><img src="uhplogo.png" alt="The Ultimate Health Project" class="logo-img"><div class="logo-wm"><span class="logo-wm-main">The Ultimate</span><span class="logo-wm-sub">Health Project</span></div></a>
+    <nav class="nl"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Programs</a><a href="transformations.html">Transformations</a><a href="blog.html" class="active">Journal</a><a href="contact.html">Contact</a></nav>
+    <a href="book.html" class="nc">Book Free Call</a>
+    <button class="hbg" id="hbg" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mm" id="mm"><span class="mm-x" id="mmx">✕</span><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Programs</a><a href="transformations.html">Transformations</a><a href="blog.html">Journal</a><a href="contact.html">Contact</a><a href="book.html" class="bp" style="margin-top:24px;font-size:16px">Book Free Call →</a></div>
+
+<!-- HERO -->
+<section class="art-hero">
+  <div class="art-hero-bg"><img src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=900&q=80" alt="Business owner working from a hotel room on a business trip" fetchpriority="high"><div class="art-hero-ov"></div></div>
+  <div class="wrap" style="position:relative;z-index:2">
+    <div class="rv">
+      <a href="blog.html" class="art-back">&larr; The UHP Journal</a>
+      <div><span class="art-cat-pill">Travel</span></div>
+      <h1 class="art-title">Eating Well While Travelling: The Busy Business Owner’s Guide</h1>
+      <p class="art-dek">Airports, hotel breakfasts and client dinners don't have to derail your progress. You don't need perfect nutrition while travelling—you need a few decisions that work almost anywhere.</p>
+      <div class="art-meta"><span>May 2026</span><div class="art-meta-dot"></div><span>7 min read</span><div class="art-meta-dot"></div><span>Travel</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- BODY -->
+<section class="sec" style="background:var(--bg);padding-top:24px">
+  <div class="art-wrap">
+    <div class="art-body rv">
+<p>You leave home at 5:30AM for the airport. You've got a flight, two meetings when you land and a client dinner that night. Breakfast becomes coffee. Lunch becomes whatever you can find between meetings. By the time dinner arrives, you're starving. There's bread on the table. Wine is being poured. Someone orders dessert. And somewhere around the second day of the trip, you think: “I'll get back on track when I get home.” This is where most people make travel harder than it needs to be. The problem isn't travelling. It's trying to follow a health routine designed for a normal week when you're having anything but a normal week. If you travel regularly for business, attend conferences or spend a lot of time in hotels, you don't need stricter rules. You need fewer decisions. Here are six that can work almost anywhere.</p>
+<h2>1. Don't arrive at the airport starving</h2>
+<p>One of the easiest mistakes is leaving food until later. You'll grab something at the airport. Then traffic is bad. Security takes longer. The flight gets delayed. Your first meeting gets brought forward. Suddenly it's 1PM and you're making food decisions while extremely hungry. Instead, spend 60 seconds thinking ahead: When is my next realistic opportunity to eat a proper meal? If it's going to be several hours away, eat before you leave or grab something before boarding. That could be:</p>
+<ul><li>A chicken or tuna wrap</li><li>A sandwich and fruit</li><li>Sushi</li><li>A rice bowl</li><li>Yoghurt and fruit</li><li>A café meal with a decent protein source</li></ul>
+<p>It doesn't have to be the healthiest meal you've eaten all week. It just needs to stop “slightly hungry” becoming “I'll eat anything.” Australian Government dietary guidance specifically recommends thinking ahead about what food and drink will be available when eating away from home and considering taking food and water with you. Eat For Health</p>
+<div class="art-callout">UHP travel rule: don't leave your next meal entirely to chance.</div>
+<h2>2. Create your default airport order</h2>
+<p>If you fly regularly, there's no reason to reconsider your entire nutrition strategy every time you walk into an airport. Create two or three default meals. Think: Protein source + something fresh + a sensible main meal + water For example: Chicken wrap + fruit + water Salmon rice bowl + vegetables Sandwich + yoghurt + water Salad bowl + chicken + fruit Your exact choices will depend on the airport. The important part is that they're repeatable. If you regularly fly Sydney–Melbourne, for example, learn where your two reliable options are at the terminals you actually use. Then food becomes one less decision on a day already filled with decisions. And if none of your usual options are available? Eat the best reasonable option you can find and move on. One airport meal doesn't define your progress.</p>
+<h2>3. Pack insurance—not seven containers of meal prep</h2>
+<p>You don't need to become the person carrying a suitcase full of Tupperware through airport security. But having one emergency option in your work bag can save you when the schedule falls apart. Consider:</p>
+<ul><li>Nuts</li><li>A protein bar</li><li>Wholegrain crackers</li><li>Fruit</li><li>Another shelf-stable snack you genuinely like</li></ul>
+<p>These aren't supposed to replace every meal. They're insurance against: Delayed flight → missed lunch → 4PM meeting → absolutely starving. That's when convenience usually beats good intentions. A small amount of preparation removes that problem before it happens.</p>
+<h2>4. Hotel breakfast isn't an eating competition</h2>
+<p>Hotel buffet breakfasts are actually useful. You've usually got plenty of options and more control than you would at an airport. The problem starts when: “Breakfast is included” becomes “I need to try everything.” You don't need to avoid the buffet. Build yourself a normal breakfast. For example: Eggs + toast + fruit Greek yoghurt + fruit + oats Eggs + vegetables + toast Or whatever combination fits your preferences and goals. Want the croissant as well? Have it. You don't need to turn one croissant into: “Well, today is ruined anyway.” And if breakfast ends up being bigger than usual, don't punish yourself by skipping lunch. Just return to your normal eating pattern at the next meal. Your overall eating pattern matters much more than whether one hotel breakfast was perfect.</p>
+<h2>5. Don't turn the client dinner into a diet competition</h2>
+<p>This is one of the most important rules for business owners. You're at dinner to build a relationship—not demonstrate how disciplined your diet is. You don't need to order plain grilled chicken while everyone else enjoys dinner. Order something you actually want. A simple approach might be: Choose your main → include vegetables or salad where practical → enjoy the meal → stop when you're satisfied. Steak? Fine. Fish? Fine. Pasta? Fine. Dessert? Also fine. And if you're drinking alcohol, it can help to decide before dinner what you're comfortable drinking rather than making that decision every time somebody tops up your glass. Australian guidelines recommend that healthy adults drink no more than 10 standard drinks per week and no more than four on any one day to reduce alcohol-related harm. The less alcohol you drink, the lower your risk. NHMRC Remember that a restaurant serving isn't necessarily one standard drink. Department of Health Most importantly: Don't let one client dinner become permission to abandon the rest of the trip. Dinner was dinner. Breakfast tomorrow is a new decision.</p>
+<h2>6. Don't compensate the next day</h2>
+<p>This deserves its own rule because it's where a lot of people get caught. You had: A big dinner. A couple of wines. Dessert. Now it's 7AM. The instinct is: “I'll skip breakfast and barely eat today to make up for last night.” You don't need to. Return to your normal routine. Have breakfast if you're hungry. Eat a normal lunch. Drink some water. Get some movement. Then continue with your day. One bigger meal doesn't require an entire day of punishment. This is what makes a health strategy sustainable while travelling.</p>
+<h2>Travelling overseas? Health comes first</h2>
+<p>If you're travelling internationally, there's another consideration that matters more than calories: Not getting sick. Food and water safety varies between destinations. Before travelling, check Smartraveller for destination-specific advice. Healthdirect recommends checking whether local tap water is safe. Where it isn't, precautions include drinking sealed bottled water, avoiding ice, eating fruit you can peel and avoiding uncooked foods such as salads. Health Direct Sometimes the best health decision isn't the meal with the fewest calories. It's the one least likely to leave you sick in a hotel room before tomorrow's meeting.</p>
+<h2>Crossing time zones? Protect tomorrow's performance</h2>
+<p>If you're flying long-haul, nutrition isn't your only consideration. Jet lag can cause daytime fatigue and sleep problems—which isn't ideal when you've got a meeting the morning after landing. Healthdirect recommends staying hydrated, avoiding alcohol and caffeine during flights and, for longer trips, adjusting towards the destination's eating and sleeping schedule. Health Direct This is where thinking about performance, rather than simply body weight, becomes useful. The question isn't only: “How many calories am I eating?” It's also: “What will help me arrive ready to perform tomorrow?”</p>
+<h2>The UHP Travel Rule of Three</h2>
+<p>If you remember nothing else from this article, remember: 1. PLAN Know roughly where your next decent meal is coming from. 2. BACKUP Carry one option for when flights and meetings don't go according to plan. 3. RESET A bigger meal doesn't mean the trip is ruined. Return to normal at the next opportunity. That's it.</p>
+<h2>Try this on your next business trip</h2>
+<p>Before you leave home, answer five questions: Airport: What are my two default meal options? Carry-on: What's my backup if my schedule changes? Hotel: Where can I get a decent meal when I arrive? Client dinner: What's my plan around alcohol? Tomorrow: What can I do tonight that will help me perform well tomorrow? This should take a few minutes. And that's the point. A good system should reduce the amount of time you spend thinking about your health—not increase it.</p>
+<h2>The UHP Takeaway</h2>
+<p>Travelling doesn't mean choosing between enjoying yourself and making progress. You can eat airport food. You can enjoy the hotel buffet. You can go to the client dinner. You can have a glass of wine. The difference is having a few important decisions made before you're tired, hungry and rushing between meetings. For a business owner, that's the real goal: less decision fatigue, more consistency. Because the best health plan isn't one that only works when you're at home, your fridge is stocked and your calendar is empty. It's one that still works when you're 10,000 kilometres away and tomorrow starts with an 8AM meeting. That's how we approach health at The Ultimate Health Project: building simple systems around your business, travel, family and real life—not asking you to put everything else on hold to get healthy. Want a health and performance plan that works wherever business takes you?</p>
+<div class="art-cta"><a href="book.html" class="bp">Book a Free UHP Health &amp; Performance Call &rarr;</a></div>
+<p>References:</p>
+<p>[1] Australian Government Department of Health, Disability and Ageing. (n.d.). Eating away from home. Eat for Health. https://www.eatforhealth.gov.au/eating-well/tips-eating-well/eating-away-home [2] Australian Government Department of Health, Disability and Ageing. (n.d.). Australian dietary guidelines 1-5. Eat For Health. https://www.eatforhealth.gov.au/guidelines/australian-dietary-guidelines-1-5 [3] Australian Government National Health and Medical Research Council. (n.d.). Alcohol. https://www.nhmrc.gov.au/health-advice/alcohol [4] Australian Government Department of Foreign Affairs and Trade. (2026). Going overseas to live, work or study. Smartraveller. https://www.smartraveller.gov.au/th/node/74 [5] Healthdirect Australia. (2025). Travel health advice. https://www.healthdirect.gov.au/travel-health-advice [6] Healthdirect Australia. (2024). Jet lag. https://www.healthdirect.gov.au/jet-lag</p>
+    </div>
+  </div>
+</section>
+
+<!-- RELATED -->
+<section class="sec" style="background:var(--black);padding-top:0">
+  <div class="wrap">
+    <div class="lbl" style="margin-bottom:0">More from the Journal</div>
+    <div class="rel-g">
+<a href="20-minute-meal-prep-system.html" class="rel-card">
+  <div class="rel-img-w"><img class="rel-img" src="https://images.unsplash.com/photo-1579126038374-6064e9370f0f?auto=format&fit=crop&w=900&q=80" alt="Quick 20 minute meal prep in a home kitchen" loading="lazy"></div>
+  <div class="rel-body">
+    <div class="rel-cat">Nutrition</div>
+    <div class="rel-title">The 20-Minute Meal Prep System for Busy Business Owners</div>
+  </div>
+</a>
+<a href="accountability-missing-link-health-plan.html" class="rel-card">
+  <div class="rel-img-w"><img class="rel-img" src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=900&q=80" alt="Business owner keeping a consistent daily walking routine" loading="lazy"></div>
+  <div class="rel-body">
+    <div class="rel-cat">Accountability</div>
+    <div class="rel-title">Why Accountability May Be the Missing Link in Your Health Plan</div>
+  </div>
+</a>
+<a href="how-to-eat-around-your-training.html" class="rel-card">
+  <div class="rel-img-w"><img class="rel-img" src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=900&q=80" alt="Business owner staying active with family on the weekend" loading="lazy"></div>
+  <div class="rel-body">
+    <div class="rel-cat">Training</div>
+    <div class="rel-title">How to Eat Around Your Training Without Overcomplicating Your Day</div>
+  </div>
+</a>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="sec" style="background:var(--black)">
+  <div class="wrap">
+    <div class="cta-split rv">
+      <div>
+        <div class="lbl" style="margin-bottom:20px">Ready to take action?</div>
+        <h2 style="font-weight:900;text-transform:uppercase;font-size:clamp(36px,5vw,64px);color:var(--white);line-height:.94;letter-spacing:-.01em;margin-bottom:24px">READING IS JUST<br>THE START.<br><span style="font-style:italic;color:var(--beige);font-weight:700">Let's build your system.</span></h2>
+        <p style="font-size:16px;color:var(--muted);line-height:1.7;max-width:460px;margin-bottom:36px">Insights only go so far. A personalised program, built around your life, is what actually moves the needle. Book a free consultation and find out what that looks like for you.</p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <a href="book.html" class="bp">Book Free Call →</a>
+          <a href="services.html" class="bo">View Programs</a>
+        </div>
+      </div>
+      <div class="cta-stats">
+        <div style="background:var(--surface);padding:32px 24px;text-align:center"><div style="font-size:40px;font-weight:900;color:var(--orange);line-height:1">200+</div><div style="font-size:11px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-top:8px">Clients coached</div></div>
+        <div style="background:var(--surface);padding:32px 24px;text-align:center"><div style="font-size:40px;font-weight:900;color:var(--orange);line-height:1">94%</div><div style="font-size:11px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-top:8px">Report better energy</div></div>
+        <div style="background:var(--surface);padding:32px 24px;text-align:center"><div style="font-size:40px;font-weight:900;color:var(--orange);line-height:1">Wk 2</div><div style="font-size:11px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-top:8px">Results begin</div></div>
+        <div style="background:var(--surface);padding:32px 24px;text-align:center"><div style="font-size:40px;font-weight:900;color:var(--orange);line-height:1">$0</div><div style="font-size:11px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-top:8px">First consultation</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="ft-g">
+      <div class="ft-bc">
+        <a href="index.html" style="display:flex;align-items:center;gap:14px;cursor:none"><img src="uhplogo.png" alt="The Ultimate Health Project" class="logo-img"></a>
+        <p style="font-size:14px;color:var(--dim);line-height:1.7;max-width:280px;margin-top:16px">More than coaching. Personalised meal plans, breakfast replacements, and AI accountability for busy business owners.</p>
+        <p style="font-size:13px;color:var(--dim);margin-top:10px">Regents Park, NSW, Australia</p>
+      </div>
+      <div class="ft-col"><h6>Navigate</h6><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Programs</a><a href="transformations.html">Transformations</a><a href="blog.html">Journal</a><a href="contact.html">Contact</a></div>
+      <div class="ft-col"><h6>The System</h6><a href="services.html#nutrition">Healthy Eating</a><a href="services.html#fitness">Fitness Plan</a><a href="services.html#supplements">Supplementation</a><a href="services.html#accountability">Personal Coach</a><a href="services.html#community">Community Support</a></div>
+      <div class="ft-col"><h6>Contact</h6><a href="mailto:steven@24fitclub.com.au">steven@24fitclub.com.au</a><a href="contact.html">Book a consultation</a><a href="#">Privacy policy</a></div>
+    </div>
+    <div class="ft-bot"><p>© 2026 Ultimate Health Project · Regents Park, NSW, Australia. All rights reserved.</p><p>Personalised nutrition systems, meal plans, and accountability for business owners.</p></div>
+  </div>
+</footer>
+<script>
+(function(){
+  const nav=document.getElementById('nav'),pb=document.getElementById('pb'),pt=document.getElementById('pt');
+  const hbg=document.getElementById('hbg'),mm=document.getElementById('mm'),mmx=document.getElementById('mmx');
+  if(pt)setTimeout(()=>pt.classList.add('done'),60);
+  window.addEventListener('scroll',()=>{const p=window.scrollY/(document.documentElement.scrollHeight-window.innerHeight);nav.classList.toggle('scrolled',window.scrollY>80);if(pb)pb.style.width=(p*100)+'%';},{passive:true});
+  const cur=document.getElementById('cur'),curf=document.getElementById('curf');
+  let mx=0,my=0,cx=0,cy=0;
+  if(cur){document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;cur.style.cssText=`left:${mx}px;top:${my}px`});(function loop(){cx+=(mx-cx)*.12;cy+=(my-cy)*.12;curf.style.cssText=`left:${cx}px;top:${cy}px`;requestAnimationFrame(loop)})();}
+  document.querySelectorAll('a,button,.hbg').forEach(el=>{el.addEventListener('mouseenter',()=>document.body.classList.add('hovering'));el.addEventListener('mouseleave',()=>document.body.classList.remove('hovering'));});
+  if(hbg)hbg.addEventListener('click',()=>{mm.classList.add('open');document.body.style.overflow='hidden';});
+  if(mmx)mmx.addEventListener('click',()=>{mm.classList.remove('open');document.body.style.overflow='';});
+  mm.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{mm.classList.remove('open');document.body.style.overflow='';}));
+  document.querySelectorAll('a[href]').forEach(a=>{const h=a.getAttribute('href');if(!h||h.startsWith('#')||h.startsWith('mailto')||h.startsWith('http'))return;a.addEventListener('click',e=>{e.preventDefault();if(pt){pt.style.transition='none';pt.style.transform='scaleY(1)';pt.style.transformOrigin='top';pt.classList.remove('done');setTimeout(()=>window.location.href=h,460);}else window.location.href=h;});});
+  const io=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:0.07,rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.rv,.rv-l,.rv-r').forEach(el=>io.observe(el));
+})();
+</script>
+</body>
+</html>
